@@ -1,5 +1,7 @@
+import Tetris from './components/Tetris'
+
 function App() {
-  return <div>Tetris</div>
+  return <Tetris />
 }
 
 export default App

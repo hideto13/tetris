@@ -1,3 +1,5 @@
+import { StyledStartButton } from './StartButton.styled'
+
 export default function StartButton({ callback }) {
-  return <div>Start Button</div>
+  return <StyledStartButton onClick={callback}>Start Game</StyledStartButton>
 }
